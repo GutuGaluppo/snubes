@@ -8,7 +8,7 @@ import laserhubLogo from '../images/laserhub.png'
 
 function CarouselComponent() {
 	return (
-		<div className="mx-auto">
+		<div className="mx-auto py-10 border-y-4 border-zinc-100">
 			<div className="flex flex-col items-center w-">
 				{/* 
 			TODO

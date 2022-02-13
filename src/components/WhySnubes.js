@@ -17,8 +17,8 @@ const array = [
 
 function WhySnubes() {
 	return (
-		<div className="w-auto p-14 bg-cover bg-right md:bg-[url('/src/images/desk-bg.png')]">
-			<div className="w-auto md:w-[31rem] ml-3 lg:mx-auto">
+		<div className="w-auto p-5 py-8 lg:p-14 bg-cover bg-right lg:bg-center md:bg-[url('/src/images/desk-bg.png')] border-y-4 border-zinc-100">
+			<div className="w-auto md:w-[31rem] ml-3 lg:mx-auto bg-white md:p-5 rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg">
 				<h2 className="text-left text-3xl font-semibold">Why Snubes?</h2>
 				{
 					array.map((item, index) => {

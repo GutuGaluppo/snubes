@@ -23,20 +23,22 @@ const infoArray = [
 
 function InfoIcons() {
 	return (
-		<div className="flex flex-wrap justify-center items-center  mx-auto my-10">
-			{
-				infoArray.map((info, index) => {
-					return (
-						<div className="flex md:flex-col items-center m-5 md:mx-4 px-5 md:p-0" key={index}>
-							<img src={info.icon} alt={info.icon} className="w-16 h-16 mb-4" />
-							<div className="pl-7 md:p-0">
-								<h3 className="font-bold md:text-center text-xl mb-2">{info.title}</h3>
-								<p className="text-sm max-w-xs md:text-center">{info.description}</p>
+		<div className="flex justify-center items-center mx-auto py-10 border-y-4 border-zinc-100">
+			<div className="grid grid-flow-rows sm:grid-flow-cols sm:grid-cols-3 gap-1">
+				{
+					infoArray.map((info, index) => {
+						return (
+							<div className="flex md:flex-col items-center m-5 md:mx-4 px-5 md:p-0" key={index}>
+								<img src={info.icon} alt={info.icon} className="w-16 h-16 mb-4" />
+								<div className="pl-7 md:px-5">
+									<h3 className="font-bold md:text-center text-xl mb-2">{info.title}</h3>
+									<p className="max-w-xs md:text-center">{info.description}</p>
+								</div>
 							</div>
-						</div>
-					)
-				})
-			}
+						)
+					})
+				}
+			</div>
 		</div>
 	)
 }

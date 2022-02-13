@@ -4,9 +4,9 @@ import menuIcon from '../images/menu-icon.png'
 
 function NavBar() {
 	return (
-		<nav className="flex md:justify-evenly justify-between items-center h-4 p-8 md:p-10 text-gray-500 font-light">
+		<nav className="flex lg:justify-evenly justify-between items-center h-4 p-8 lg:p-10 text-gray-500 font-light border-b">
 			<img src={snubesLogo} alt="snubes logo" width='160px'/>
-			<ul className='md:grid grid-flow-col auto-rows-auto gap-3 hidden'>
+			<ul className='lg:grid grid-flow-col auto-rows-auto gap-3 hidden'>
 				<li>About Us</li>
 				<li>How it works</li>
 				<li>Become a Partner</li>
@@ -29,7 +29,7 @@ function NavBar() {
 				<li>Sign in</li>
 				<li>Get Access</li>
 			</ul>
-			<button className="md:hidden block">
+			<button className="lg:hidden block">
 				<img src={menuIcon} alt="" width="30" />
 			</button>
 		</nav>
