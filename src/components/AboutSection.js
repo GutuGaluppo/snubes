@@ -15,7 +15,7 @@ const array = [
 	}
 ]
 
-function WhySnubes() {
+function AboutSection() {
 	return (
 		<div className="w-auto p-5 py-8 lg:p-14 bg-cover bg-right lg:bg-center md:bg-[url('/src/images/desk-bg.png')] border-y-4 border-zinc-100">
 			<div className="w-auto md:w-[31rem] ml-3 lg:mx-auto bg-white md:p-5 rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg">
@@ -35,4 +35,4 @@ function WhySnubes() {
 	)
 }
 
-export default WhySnubes
+export default AboutSection

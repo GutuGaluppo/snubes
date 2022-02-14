@@ -19,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - [react-phone-input-2](https://www.npmjs.com/package/react-phone-input-2) (Highly customizable phone input component with auto formatting)
 - [ipapi](https://ipapi.co/) (API to find the location, timezon, country...to setup the ISD code - phone input)
 - [Tailwindcss](https://tailwindcss.com/) (A utility-first CSS framework)
+- [Font awesome](https://fontawesome.com/)
 
 
 ## Final consideration

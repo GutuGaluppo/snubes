@@ -1,9 +1,9 @@
 import React from 'react';
 import Hero from './components/Hero';
-import InfoIcons from './components/InfoIcons';
+import InfoSection from './components/InfoSection';
 import NavBar from './components/NavBar';
-import Carousel from './components/Carousel';
-import WhySnubes from './components/WhySnubes';
+import CarouselSection from './components/CarouselSection';
+import AboutSection from './components/AboutSection';
 import Footer from './components/Footer';
 import './fontawesome'
 
@@ -12,9 +12,9 @@ function App() {
 		<div className="font-roboto mx-auto">
 			<NavBar />
 			<Hero />
-			<InfoIcons />
-			<WhySnubes />
-			<Carousel />
+			<InfoSection />
+			<AboutSection />
+			<CarouselSection />
 			<Footer />
 		</div>
 	);

@@ -21,7 +21,7 @@ const infoArray = [
 	}
 ]
 
-function InfoIcons() {
+function InfoSection() {
 	return (
 		<div className="flex justify-center items-center mx-auto py-10 border-y-4 border-zinc-100">
 			<div className="grid grid-flow-rows sm:grid-flow-cols sm:grid-cols-3 gap-1">
@@ -43,4 +43,4 @@ function InfoIcons() {
 	)
 }
 
-export default InfoIcons
+export default InfoSection
