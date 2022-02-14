@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
 	return (
-		<div class="font-roboto mx-auto">
+		<div className="font-roboto mx-auto">
 			<NavBar />
 			<Hero />
 			<InfoIcons />
