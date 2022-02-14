@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
 import WhySnubes from './components/WhySnubes';
 import Footer from './components/Footer';
+import './fontawesome'
 
 function App() {
 	return (

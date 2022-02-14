@@ -1,5 +1,6 @@
 import React from 'react'
 import bestService from '../images/best-service.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer() {
 	return (
@@ -21,9 +22,16 @@ function Footer() {
 					<li>+49 (0) 305 5645327</li>
 					<li>
 						<ul className="grid grid-flow-col gap-2">
-							<li><a href="#"><img src="" alt="" />facebook</a></li>
-							<li><a href="#"><img src="" alt="" />Twitter</a></li>
-							<li><a href="#"><img src="" alt="" />LinkedIn</a></li>
+							<li>
+								<a href="https://www.facebook.com/SnubesGlobal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'fa-facebook']} /></a>
+							</li>
+							<li>
+
+								<a href="https://twitter.com/SnubesGlobal" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'fa-twitter']} /></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/snubes/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'fa-linkedin']} /></a>
+							</li>
 						</ul>
 					</li>
 				</ul>
