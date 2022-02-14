@@ -904,14 +904,6 @@
     "@babel/helper-create-regexp-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/polyfill@^7.12.1":
-  "integrity" "sha512-X0pi0V6gxLi6lFZpGmeNa4zxtwEmCs42isWLNjZZDE0Y8yVfgu0T2OAHlzBbdYlqbW/YXVvoBHpATEM+goCj8g=="
-  "resolved" "https://registry.npmjs.org/@babel/polyfill/-/polyfill-7.12.1.tgz"
-  "version" "7.12.1"
-  dependencies:
-    "core-js" "^2.6.5"
-    "regenerator-runtime" "^0.13.4"
-
 "@babel/preset-env@^7.11.0", "@babel/preset-env@^7.12.1", "@babel/preset-env@^7.16.4":
   "integrity" "sha512-qcmWG8R7ZW6WBRPZK//y+E3Cli151B20W1Rv7ln27vuPaXU/8TKms6jFdiJtF7UDTxcrb7mZd88tAeK9LjdT8g=="
   "resolved" "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.16.11.tgz"
@@ -1313,17 +1305,6 @@
     "source-map" "^0.6.1"
     "write-file-atomic" "^3.0.0"
 
-"@jest/types@^26.6.2":
-  "integrity" "sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ=="
-  "resolved" "https://registry.npmjs.org/@jest/types/-/types-26.6.2.tgz"
-  "version" "26.6.2"
-  dependencies:
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^3.0.0"
-    "@types/node" "*"
-    "@types/yargs" "^15.0.0"
-    "chalk" "^4.0.0"
-
 "@jest/types@^27.5.1":
   "integrity" "sha512-Cx46iJ9QpwQTjIdq5VJu2QTMMs3QlEjI0x1QbBP5W1+nMzyc2XmimiRR/CbX9TO0cPTeUlxWMOu8mslYsJ8DEw=="
   "resolved" "https://registry.npmjs.org/@jest/types/-/types-27.5.1.tgz"
@@ -1558,20 +1539,6 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
-"@testing-library/dom@^7.28.1":
-  "integrity" "sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ=="
-  "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-7.31.2.tgz"
-  "version" "7.31.2"
-  dependencies:
-    "@babel/code-frame" "^7.10.4"
-    "@babel/runtime" "^7.12.5"
-    "@types/aria-query" "^4.2.0"
-    "aria-query" "^4.2.2"
-    "chalk" "^4.1.0"
-    "dom-accessibility-api" "^0.5.6"
-    "lz-string" "^1.4.4"
-    "pretty-format" "^26.6.2"
-
 "@testing-library/dom@^8.0.0", "@testing-library/dom@>=7.21.4":
   "integrity" "sha512-9LId28I+lx70wUiZjLvi1DB/WT2zGOxUh46glrSNMaWVx849kKAluezVzZrXJfTKKoQTmEOutLes/bHg4Bj3aA=="
   "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-8.11.3.tgz"
@@ -1586,7 +1553,7 @@
     "lz-string" "^1.4.4"
     "pretty-format" "^27.0.2"
 
-"@testing-library/jest-dom@^5.11.4", "@testing-library/jest-dom@^5.14.1":
+"@testing-library/jest-dom@^5.14.1":
   "integrity" "sha512-6ewxs1MXWwsBFZXIk4nKKskWANelkdUehchEOokHsN8X7c2eKXGw+77aRV63UU8f/DTSVUPLaGxdrj4lN7D/ug=="
   "resolved" "https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.16.2.tgz"
   "version" "5.16.2"
@@ -1601,14 +1568,6 @@
     "lodash" "^4.17.15"
     "redent" "^3.0.0"
 
-"@testing-library/react@^11.1.0":
-  "integrity" "sha512-tzRNp7pzd5QmbtXNG/mhdcl7Awfu/Iz1RaVHY75zTdOkmHCuzMhRL83gWHSgOAcjS3CCbyfwUHMZgRJb4kAfpA=="
-  "resolved" "https://registry.npmjs.org/@testing-library/react/-/react-11.2.7.tgz"
-  "version" "11.2.7"
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@testing-library/dom" "^7.28.1"
-
 "@testing-library/react@^12.0.0":
   "integrity" "sha512-ihQiEOklNyHIpo2Y8FREkyD1QAea054U0MVbwH1m8N9TxeFz+KoJ9LkqoKqJlzx2JDm56DVwaJ1r36JYxZM05g=="
   "resolved" "https://registry.npmjs.org/@testing-library/react/-/react-12.1.2.tgz"
@@ -1616,13 +1575,6 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
-
-"@testing-library/user-event@^12.1.10":
-  "integrity" "sha512-IR0iWbFkgd56Bu5ZI/ej8yQwrkCv8Qydx6RzwbKz9faXazR/+5tvYKsZQgyXJiwgpcva127YO6JcWy7YlCfofQ=="
-  "resolved" "https://registry.npmjs.org/@testing-library/user-event/-/user-event-12.8.3.tgz"
-  "version" "12.8.3"
-  dependencies:
-    "@babel/runtime" "^7.12.5"
 
 "@testing-library/user-event@^13.2.1":
   "integrity" "sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg=="
@@ -1917,13 +1869,6 @@
   "integrity" "sha512-7tFImggNeNBVMsn0vLrpn1H1uPrUBdnARPTpZoitY37ZrdJREzf7I16tMrlK3hen349gr1NYh8CmZQa7CTG6Aw=="
   "resolved" "https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-20.2.1.tgz"
   "version" "20.2.1"
-
-"@types/yargs@^15.0.0":
-  "integrity" "sha512-yEJzHoxf6SyQGhBhIYGXQDSCkJjB6HohDShto7m8vaKg9Yp0Yn8+71J9eakh2bnPg6BfsH9PRMhiRTZnd4eXGQ=="
-  "resolved" "https://registry.npmjs.org/@types/yargs/-/yargs-15.0.14.tgz"
-  "version" "15.0.14"
-  dependencies:
-    "@types/yargs-parser" "*"
 
 "@types/yargs@^16.0.0":
   "integrity" "sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw=="
@@ -2309,7 +2254,7 @@
   "resolved" "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
   "version" "0.0.8"
 
-"ansi-regex@^5.0.0", "ansi-regex@^5.0.1":
+"ansi-regex@^5.0.1":
   "integrity" "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
   "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
   "version" "5.0.1"
@@ -2903,6 +2848,11 @@
   "resolved" "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz"
   "version" "1.2.2"
 
+"classnames@^2.2.6":
+  "integrity" "sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA=="
+  "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
+  "version" "2.3.1"
+
 "clean-css@^5.2.2":
   "integrity" "sha512-nKseG8wCzEuji/4yrgM/5cthL9oTDc5UOQyFMvW/Q53oP6gLH690o1NbuTh6Y18nujr7BxlsFuS7gXLnLzKJGg=="
   "resolved" "https://registry.npmjs.org/clean-css/-/clean-css-5.2.4.tgz"
@@ -3091,12 +3041,7 @@
   "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.21.0.tgz"
   "version" "3.21.0"
 
-"core-js@^2.6.5":
-  "integrity" "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
-  "version" "2.6.12"
-
-"core-js@^3.16.0", "core-js@^3.19.2":
+"core-js@^3.19.2":
   "integrity" "sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ=="
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.21.0.tgz"
   "version" "3.21.0"
@@ -5806,10 +5751,20 @@
   "resolved" "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   "version" "4.6.2"
 
+"lodash.reduce@^4.6.0":
+  "integrity" "sha1-8atrg5KZrUj3hKu/R2WW8DuRTTs="
+  "resolved" "https://registry.npmjs.org/lodash.reduce/-/lodash.reduce-4.6.0.tgz"
+  "version" "4.6.0"
+
 "lodash.sortby@^4.7.0":
   "integrity" "sha1-7dFMgk4sycHgsKG0K7UhBRakJDg="
   "resolved" "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz"
   "version" "4.7.0"
+
+"lodash.startswith@^4.2.1":
+  "integrity" "sha1-xZjErc4YiiflMUVzHNxsDnF3YAw="
+  "resolved" "https://registry.npmjs.org/lodash.startswith/-/lodash.startswith-4.2.1.tgz"
+  "version" "4.2.1"
 
 "lodash.uniq@^4.5.0":
   "integrity" "sha1-0CJTc662Uq3BvILklFM5qEJ1R3M="
@@ -6995,16 +6950,6 @@
     "lodash" "^4.17.20"
     "renderkid" "^3.0.0"
 
-"pretty-format@^26.6.2":
-  "integrity" "sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg=="
-  "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz"
-  "version" "26.6.2"
-  dependencies:
-    "@jest/types" "^26.6.2"
-    "ansi-regex" "^5.0.0"
-    "ansi-styles" "^4.0.0"
-    "react-is" "^17.0.1"
-
 "pretty-format@^27.0.0", "pretty-format@^27.0.2", "pretty-format@^27.5.1":
   "integrity" "sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ=="
   "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-27.5.1.tgz"
@@ -7034,7 +6979,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.5.8", "prop-types@^15.7.2":
+"prop-types@^15.7.2":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -7122,18 +7067,6 @@
     "regenerator-runtime" "^0.13.9"
     "whatwg-fetch" "^3.6.2"
 
-"react-carousel-minimal@^1.4.1":
-  "integrity" "sha512-M1O5HRoY50im+2P0gTuEcFVxxb/W9Mqlh1na0xbPVoD/eyzNOfrlXjpGAeZnWcHN8Ak+gHwYjZbzs0daFl0qpw=="
-  "resolved" "https://registry.npmjs.org/react-carousel-minimal/-/react-carousel-minimal-1.4.1.tgz"
-  "version" "1.4.1"
-  dependencies:
-    "@babel/polyfill" "^7.12.1"
-    "@testing-library/jest-dom" "^5.11.4"
-    "@testing-library/react" "^11.1.0"
-    "@testing-library/user-event" "^12.1.10"
-    "core-js" "^3.16.0"
-    "react-easy-swipe" "0.0.22"
-
 "react-dev-utils@^12.0.0":
   "integrity" "sha512-xBQkitdxozPxt1YZ9O1097EJiVpwHr9FoAuEVURCKV0Av8NBERovJauzP7bo1ThvuhZ4shsQ1AJiu4vQpoT1AQ=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.0.tgz"
@@ -7164,7 +7097,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@*", "react-dom@^17.0.2":
+"react-dom@*", "react-dom@^16.12.0 || ^17.0.0", "react-dom@^17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -7172,13 +7105,6 @@
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
     "scheduler" "^0.20.2"
-
-"react-easy-swipe@0.0.22":
-  "integrity" "sha512-7dJXnHVmfqyPb+Gzf4GTTuPoqDz2jLW7huRq6gcZKeg2QxamC3zWJOucMyWunPoPgqDScwIM2wwf4WvFA2bayw=="
-  "resolved" "https://registry.npmjs.org/react-easy-swipe/-/react-easy-swipe-0.0.22.tgz"
-  "version" "0.0.22"
-  dependencies:
-    "prop-types" "^15.5.8"
 
 "react-error-overlay@^6.0.10":
   "integrity" "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="
@@ -7199,6 +7125,18 @@
   "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
+
+"react-phone-input-2@^2.15.0":
+  "integrity" "sha512-60EOJSgmRFl9Ar89/JznaDsdB9FNf5T6nvQf0sN1t3X7exrKHbUT3ij7HZn2Y7jigcPv9EkdyzVr0MiOk1FKmw=="
+  "resolved" "https://registry.npmjs.org/react-phone-input-2/-/react-phone-input-2-2.15.0.tgz"
+  "version" "2.15.0"
+  dependencies:
+    "classnames" "^2.2.6"
+    "lodash.debounce" "^4.0.8"
+    "lodash.memoize" "^4.1.2"
+    "lodash.reduce" "^4.6.0"
+    "lodash.startswith" "^4.2.1"
+    "prop-types" "^15.7.2"
 
 "react-refresh@^0.11.0", "react-refresh@>=0.10.0 <1.0.0":
   "integrity" "sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A=="
@@ -7260,7 +7198,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@*", "react@^16.8.0 || ^17", "react@^17.0.2", "react@>= 16", "react@17.0.2":
+"react@*", "react@^16.12.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^17.0.2", "react@>= 16", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
