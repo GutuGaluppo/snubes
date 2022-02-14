@@ -10,14 +10,7 @@ function CarouselComponent() {
 	return (
 		<div className="mx-auto py-10 border-y-4 border-zinc-100">
 			<div className="flex flex-col items-center w-">
-				{/* 
-			TODO
-			1- logo
-			2- carousel with users testimonials
-			3- partners
-			*/}
 				<img src={talixoBlack} alt="" className="w-32" />
-
 				<p className="mx-auto px-5 pt-5 text-left italic md:w-[31rem]">
 					“Finding a suitable outsourcing service provider through Snubes was very easy and our personal consultant helped us every step of the way.
 					After a short time we had good offers on the table.

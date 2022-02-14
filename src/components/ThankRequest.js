@@ -26,7 +26,7 @@ function ThankRequest({ company, fullName, email, phoneNumber }) {
 					<td className="text-left pl-10">
 						{userInfo(`${company}`)}
 						{userInfo(`${fullName}`)}
-						{userInfo(`${phoneNumber}`)}
+						{userInfo(`+${phoneNumber}`)}
 						{userInfo(`${email}`)}
 					</td>
 				</tr>
