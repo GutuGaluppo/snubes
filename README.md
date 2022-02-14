@@ -24,4 +24,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Final consideration
 
-I didn't develop the carousel due to not been required and  
+I didn't develop the carousel due to the short time and not been required
